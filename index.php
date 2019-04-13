@@ -13,7 +13,7 @@
     <?= "<link rel='stylesheet' type='text/css' href='css/style.css'>"; ?>
 
     <!-- Fonts and Icons -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,200" rel="stylesheet" />
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 </head>
@@ -25,8 +25,8 @@
             <div class="sidebar-header">
                 <h3>Sunshine Bank</h3>
             </div>
+            <p>Clearing the clouds from your financial future.</p>
             <ul class="list-unstyled components">
-                <p>Clearing the clouds from your financial future</p>
                 <li class="active">
                     <a href="#personalSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Personal</a>
                     <ul class="collapse list-unstyled" id="personalSubmenu">
