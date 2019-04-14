@@ -1,6 +1,23 @@
+/* ////Main Page//// */
+
 body {
     font-family: Raleway, sans-serif;
 }
+
+/* p {
+    font-size: 1.1em;
+    line-height: 1.7em;
+    text-align: center;
+} */
+
+/*TODO - Map this to a tags */
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+/* ////Nav Bar//// */
 
 .wrapper {
     display: flex;
@@ -12,8 +29,9 @@ body {
     min-width: 250px;
     max-width: 250px;
     min-height: 100vh;
-    background-image: linear-gradient(rgb(20, 177, 231), rgb(255,255,255));
+    background-image: linear-gradient(rgb(20, 177, 231), rgb(209, 231, 238));
     color: rgb(255,255,255);
+    transition: all 0.3s;
 }
 
 #sidebar.active {
@@ -29,21 +47,36 @@ body {
     font-weight: 700;
 }
 
-p {
+/*TODO this does not appear to be taking affect */
+#sidebar ul.components {
+    padding: 20px 0;
+    /* border-bottom: 1px solid rgba(255,255,255,0.5); */
+}
+
+#sidebar ul li a {
+    color: rgb(255,255,255);
+    font-weight: 400;
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: rgb(20, 177, 231);
+    background: rgb(255,255,255);
+}
+
+/* TODO: determine if this is worth keeping */
+/* #sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: rgb(20,117,231);
+    background: rgb(255,255,255);
+} */
+
+#sidebar p {
     font-size: 1.1em;
     line-height: 1.7em;
     text-align: center;
-}
-
-#sidebar a, #sidebar a:hover, #sidebar a:focus {
-    color: inherit;
-    text-decoration: none;
-    transition: all 0.3s;
-}
-
-#sidebar a {
-    color: rgb(255,255,255);
-    font-weight: 400;
+    padding: 10px;
 }
 
 a[data-toggle="collapse"] {
@@ -54,9 +87,17 @@ a[data-toggle="collapse"] {
     display: block;
     position: absolute;
     top: 50%;
-    left: 100px;
+    left: 115px;
     transform: translateY(-50%);     
 }
+
+#sidebar ul ul li a {
+    font-size: 0.9em;
+    padding-left: 1.2vw;
+    background: rgb(109, 127, 204);
+}
+
+/* /// Main Body /// */
 
 #content {
     border: 3px solid red;
