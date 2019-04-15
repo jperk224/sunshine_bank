@@ -25,8 +25,8 @@
             <div class="sidebar-header">
                 <h3>Sunshine Bank</h3>
             </div>
-            <p>Clearing the clouds from your financial future.</p>
             <ul class="list-unstyled components">
+            <p>Clearing the clouds from your financial future.</p>
                 <li class="active">
                     <a href="#personalSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Personal</a>
                     <ul class="collapse list-unstyled" id="personalSubmenu">
@@ -86,6 +86,8 @@
                 </div>
             </nav>
             <h1>hello</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore illum quam, exercitationem earum corrupti atque placeat, consequuntur illo magni impedit cum! Deleniti libero porro architecto nihil similique, obcaecati reiciendis enim.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores voluptas consequuntur possimus fuga dolorum eos accusamus in officia non laborum, iure ut nihil, quae dolore molestiae magnam voluptatem. Molestias.</p>
         </div>
     </div>
 
