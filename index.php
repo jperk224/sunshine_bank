@@ -24,11 +24,15 @@
         <nav id="sidebar">
             <div class="sidebar-header">
                 <h3>Sunshine Bank</h3>
+                <strong>SB</strong>
             </div>
             <ul class="list-unstyled components">
-            <p>Clearing the clouds from your financial future.</p>
+                <p>Clearing the clouds from your financial future.</p>
                 <li class="active">
-                    <a href="#personalSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Personal</a>
+                    <a href="#personalSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-user"></i>
+                        Personal
+                    </a>
                     <ul class="collapse list-unstyled" id="personalSubmenu">
                         <li>
                             <a href="#">Checking</a>
@@ -42,7 +46,10 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#businessSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Business</a>
+                    <a href="#businessSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-briefcase"></i>
+                        Business
+                    </a>
                     <ul class="collapse list-unstyled" id="businessSubmenu">
                         <li>
                             <a href="#">Banking</a>
@@ -56,7 +63,10 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Investments</a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-chart-line"></i>
+                        Investment
+                    </a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li>
                             <a href="#">Trust and Asset Management</a>
@@ -67,10 +77,16 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#">
+                        <i class="fas fa-sun"></i>
+                        About
+                    </a>
                 </li>
                 <li>
-                    <a href="#">Contact Us</a>
+                    <a href="#">
+                        <i class="fas fa-phone"></i>
+                        Contact
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -81,7 +97,7 @@
                 <div class="container-fluid">
                     <button type="button" id="sidebarCollapse" class="btn btn-info">
                         <i class="fas fa-align-left"></i>
-                        <span>View Our Services</span>
+                        <span>Menu</span>
                     </button>
                 </div>
             </nav>

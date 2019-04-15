@@ -46,6 +46,10 @@ a, a:hover, a:focus {
     color: rgb(255,255,255);
 }
 
+#sidebar .sidebar-header strong {
+    display: none;
+}
+
 #sidebar ul.components {
     padding: 20px 0;
 }
@@ -85,11 +89,12 @@ a[data-toggle="collapse"] {
     display: block;
     position: absolute;
     top: 50%;
-    left: 115px;
+    left: 135px;
     transform: translateY(-50%);
 }
 
-/* For smaller screens, navbar will be hidden by default */
+/* For smaller screens, navbar will be hidden by default, expanded 
+version will be collapsed version */
 @media (max-width: 768px) {
     #sidebar {
         margin-left: -250px;
@@ -97,5 +102,31 @@ a[data-toggle="collapse"] {
 
     #sidebar.active {
         margin-left: 0;
+        min-width: 90px;
+        max-width: 90px;
+        text-align: center;
+    }
+
+    #sidebar.active .sidebar-header h3 {
+        display: none;
+    }
+
+    #sidebar.active .sidebar-header strong {
+        display: block;
+        font-size: 2em;
+    }
+
+    #sidebar ul.components p {
+        display: none;
+    }
+
+    #sidebar.active ul li a {
+        padding: 20px 10px;
+        text-align: center;
+        font-size: 0.9em; /*TODO !important outside of media query makes the sub anchors 0.9em */
+    }
+
+    #sidebar.active ul li a i {
+        display: block;
     }
 }
