@@ -101,6 +101,17 @@
                     </button>
                 </div>
             </nav>
+            <!-- Full Page Image Header with Vertically Centered Content -->
+            <header class="masthead">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                    <h1 class="font-weight-light">Vertically Centered Masthead Content</h1>
+                    <p class="lead">A great starter layout for a landing page</p>
+                </div>
+                </div>
+            </div>
+            </header>
             <h1>hello</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore illum quam, exercitationem earum corrupti atque placeat, consequuntur illo magni impedit cum! Deleniti libero porro architecto nihil similique, obcaecati reiciendis enim.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores voluptas consequuntur possimus fuga dolorum eos accusamus in officia non laborum, iure ut nihil, quae dolore molestiae magnam voluptatem. Molestias.</p>

@@ -1,10 +1,4 @@
-/* ////Main Page//// */
-/*
-colors:
-blue -> rgb(20,177,231)
-white -> rgb(209,231,238)
-purple -> rgb(109, 127, 204)
-*/
+/* MAIN */
 
 body {
     font-family: Raleway, sans-serif;
@@ -28,6 +22,8 @@ a, a:hover, a:focus {
     text-decoration: none;
     transition: all 0.3s;
 }
+
+/* NAVBAR-SIDE */
 
 #sidebar {
     min-width: 250px;
@@ -93,6 +89,21 @@ a[data-toggle="collapse"] {
     transform: translateY(-50%);
 }
 
+
+/* CONTENT */
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url("./../images/beach1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* MEDIA QUERY */
+
 /* For smaller screens, navbar will be hidden by default, expanded 
 version will be collapsed version */
 @media (max-width: 768px) {
@@ -126,5 +137,7 @@ version will be collapsed version */
         font-size: 0.9em; /*TODO !important outside of media query makes the sub anchors 0.9em */
     }
 
-    
+    .dropdown-toggle:after {
+        display: none;
+    }
 }
