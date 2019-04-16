@@ -27,7 +27,7 @@
                 <strong>SB</strong>
             </div>
             <ul class="list-unstyled components">
-                <p>Clearing the clouds from your financial future.</p>
+                <!-- <p>Clearing the clouds from your financial future.</p> -->
                 <li class="active">
                     <a href="#personalSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <i class="fas fa-user"></i>
@@ -93,24 +93,28 @@
 
         <!-- Page Content -->
         <div id="content">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <button type="button" id="sidebarCollapse" class="btn btn-info">
                         <i class="fas fa-align-left"></i>
                         <span>Menu</span>
                     </button>
                 </div>
-            </nav>
+            </nav> -->
             <!-- Full Page Image Header with Vertically Centered Content -->
             <header class="masthead">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center">
-                <div class="col-12 text-center">
-                    <h1 class="font-weight-light">Vertically Centered Masthead Content</h1>
-                    <p class="lead">A great starter layout for a landing page</p>
+                <button type="button" id="sidebarCollapse" class="btn btn-primary">
+                    <i class="fas fa-align-left"></i>
+                    <span>Menu</span>
+                </button>
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12 text-center">
+                            <h1 class="font-weight-light">Sunshine Bank</h1>
+                            <h3 class="lead">Clearing the Clouds from your financial future.</h3>
+                        </div>
+                    </div>
                 </div>
-                </div>
-            </div>
             </header>
             <h1>hello</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore illum quam, exercitationem earum corrupti atque placeat, consequuntur illo magni impedit cum! Deleniti libero porro architecto nihil similique, obcaecati reiciendis enim.</p>

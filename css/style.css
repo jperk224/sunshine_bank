@@ -29,7 +29,7 @@ a, a:hover, a:focus {
     min-width: 250px;
     max-width: 250px;
     min-height: 100vh;
-    background-image: linear-gradient(rgb(20,177,231), rgb(209,231,238));
+    background-image: linear-gradient(to right, rgb(20,177,231), rgb(209,231,238));
     transition: all 0.5s;
 }
 
@@ -63,7 +63,8 @@ a, a:hover, a:focus {
 }
 
 #sidebar ul li a:hover {
-    background: rgb(109, 127, 204);
+    /* background: rgb(109, 127, 204); */
+    background-image: linear-gradient(to right, rgb(109,127,204), rgb(209,231,238));
 }
 
 /*TODO - is this needed??
@@ -74,7 +75,8 @@ a, a:hover, a:focus {
 ul ul a {
     font-size: 0.9em !important; /*TODO new ids to remove !important */
     padding-left: 10% !important; 
-    background: rgb(109, 127, 204);
+    /* background: rgb(109, 127, 204); */
+    background-image: linear-gradient(to right, rgb(109,127,204), rgb(209,231,238));
 }
 
 a[data-toggle="collapse"] {
@@ -100,6 +102,27 @@ a[data-toggle="collapse"] {
     background-position: center;
     background-repeat: no-repeat;
     color: white;
+}
+
+.masthead div h1 {
+    font-size: 3.2rem;
+}
+
+.masthead div h3 {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.masthead button {
+    margin: 20px 20px;
+    background-color: rgba(255,255,255,0);
+    color: rgb(255,255,255);
+    border: none;
+}
+
+.masthead button:hover {
+    /* background-color: rgb(109, 127, 204); */
+    background-image: linear-gradient(to right, rgb(109,127,204), rgb(209,231,238));
 }
 
 /* MEDIA QUERY */
