@@ -112,10 +112,30 @@
                         <div class="col-12 text-center">
                             <h1 class="font-weight-light">Sunshine Bank</h1>
                             <h3 class="lead">Clearing the Clouds from your financial future.</h3>
+                            <div id="specials">
+                                <button type="button" id="homeEquity" class="btn btn-primary" href="#home_equity">
+                                    <i class="fas fa-home"></i>
+                                    <span>Home Equity Special</span>
+                                </button>
+                                <button type="button" id="bizLine" class="btn btn-primary">
+                                    <i class="fas fa-chart-pie"></i>
+                                    <span>Small Business Lines</span>
+                                </button>
+                                <button type="button" id="investServices" class="btn btn-primary">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Investment Services</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </header>
+            <article id="home_equity" class="no_article promo">
+                <div class=exit-icon><i class="fas fa-times"></i></div>
+                <h2>Home Equity</h2>
+                <h4><strong>Rate Special</strong></h4> 
+                <p>With a Home Equity Loan or Master Line of Credit from Sunshine Bank you're sure to have plenty of sunny options to choose from. Our home equity products give you the flexibility you need while utilizing the hard earned equity in your home. For more information on these rate specials, check out our home equity product page here:</p>
+            </article>
             <h1>hello</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore illum quam, exercitationem earum corrupti atque placeat, consequuntur illo magni impedit cum! Deleniti libero porro architecto nihil similique, obcaecati reiciendis enim.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores voluptas consequuntur possimus fuga dolorum eos accusamus in officia non laborum, iure ut nihil, quae dolore molestiae magnam voluptatem. Molestias.</p>

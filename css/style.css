@@ -125,6 +125,40 @@ a[data-toggle="collapse"] {
     background-image: linear-gradient(to right, rgb(109,127,204), rgb(209,231,238));
 }
 
+.masthead button:focus {
+    outline: 1px solid rgb(109,127,204);
+}
+
+article {
+    height: 60vh;
+    width: 40vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -30vh -20vw;
+    background-image: linear-gradient(to right, rgb(109,127,204), rgb(209,231,238));
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5% 5%;
+}
+
+article p {
+    font-size: 0.85rem;
+}
+
+article div.exit-icon {
+    text-align: left;
+}
+
+article div.exit-icon:hover {
+    cursor: pointer;
+}
+
+article.no_article {
+    display: none;
+}
+
 /* MEDIA QUERY */
 
 /* For smaller screens, navbar will be hidden by default, expanded 
