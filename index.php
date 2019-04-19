@@ -131,7 +131,7 @@
                 </div>
             </header>
             <article id="home_equity" class="no_article promo">
-                <div class="exit-icon"><i class="fas fa-times"></i></div>
+                <div id="exit-icon"><i class="fas fa-times"></i></div>
                 <h2>Home Equity</h2>
                 <h4><strong>Rate Special</strong></h4>
                 <p>With a Home Equity Loan or Master Line of Credit from Sunshine Bank you're sure to have plenty of sunny options to choose from. Our home equity products give you the flexibility you need while utilizing the hard earned equity in your home. For more information on these rate specials, check out our home equity product page.</p>
@@ -140,19 +140,19 @@
                 </button>
             </article>
             <article id="biz_line" class="no_article promo">
-                <div class="exit-icon"><i class="fas fa-times"></i></div>
+                <div id="exit-icon1"><i class="fas fa-times"></i></div>
                 <h2>Small Business Lines</h2>
                 <h4><strong>Rate Special</strong></h4>
-                <p>With a Home Equity Loan or Master Line of Credit from Sunshine Bank you're sure to have plenty of sunny options to choose from. Our home equity products give you the flexibility you need while utilizing the hard earned equity in your home. For more information on these rate specials, check out our home equity product page.</p>
+                <p>We work with businesses of all shapes and sizes. We will work to understand your business and recommend the best products and services to help you focus on what's important: growing your business.  Sunshine Bank has a line of credit to help fund your business. Lines of credit assist businesses in meeting unexpected needs and taking advantage of opportunities.</p>
                 <button type="button" class="btn btn-primary article-button" href="#">
                     <span>Learn More</span>
                 </button>
             </article>
             <article id="invest_services" class="no_article promo">
-                <div class="exit-icon"><i class="fas fa-times"></i></div>
+                <div id="exit-icon2"><i class="fas fa-times"></i></div>
                 <h2>Investment Services</h2>
                 <h4><strong>Free Consultation</strong></h4>
-                <p>With a Home Equity Loan or Master Line of Credit from Sunshine Bank you're sure to have plenty of sunny options to choose from. Our home equity products give you the flexibility you need while utilizing the hard earned equity in your home. For more information on these rate specials, check out our home equity product page.</p>
+                <p>Whatever your level of wealth, or your financial goals, Sunshine Bank can help you create a personalized wealth management plan. With a team-based approach and a single point of contact, our quality advisors can build customized strategies tailored to you needs and goals.</p>
                 <button type="button" class="btn btn-primary article-button" href="#">
                     <span>Learn More</span>
                 </button>

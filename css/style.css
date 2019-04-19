@@ -129,6 +129,10 @@ a[data-toggle="collapse"] {
     outline: 1px solid rgb(109,127,204);
 }
 
+#specials {
+    padding-bottom: 30px;
+}
+
 article {
     height: 50vh;
     width: 40vw;
@@ -149,11 +153,27 @@ article p {
     font-size: 0.85rem;
 }
 
-article div.exit-icon {
+article div#exit-icon {
     text-align: left;
 }
 
-article div.exit-icon:hover {
+article div#exit-icon:hover {
+    cursor: pointer;
+}
+
+article div#exit-icon1 {
+    text-align: left;
+}
+
+article div#exit-icon1:hover {
+    cursor: pointer;
+}
+
+article div#exit-icon2 {
+    text-align: left;
+}
+
+article div#exit-icon2:hover {
     cursor: pointer;
 }
 
@@ -173,13 +193,6 @@ article.no_article {
 }
 
 /* MEDIA QUERY */
-
-
-@media (max-width: 876px) {
-    article {
-        height: 60vh;
-    }
-}
 
 
 /* For smaller screens, navbar will be hidden by default, expanded 
@@ -229,7 +242,61 @@ version will be collapsed version */
     } */
 }
 
+@media (max-width: 1058px) {
+    article {
+        height: 60vh;
+        width: 40vw;
+        margin: -30vh -20vw;
+    }
+}
+
+@media (max-width: 825px) {
+    article {
+        height: 65vh;
+        width: 45vw;
+        margin: -32.5vh -22.5vw;
+    }
+}
+
+@media (max-width: 542px) {
+    article {
+        height: 70vh;
+        width: 55vw;
+        margin: -35vh -27.5vw;
+    }
+}
+
+@media (max-width: 456px) {
+    article {
+        height: 80vh;
+        width: 55vw;
+        margin: -40vh -27.5vw;
+    }
+}
+
 @media (max-width: 400px) {
+    article {
+        height: 80vh;
+        width: 60vw;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin: -40vh -30vw;
+    }
+}
+
+@media (max-width: 344px) {
+    article {
+        height: 80vh;
+        width: 90vw;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin: -40vh -45vw;
+    }
+}
+
+@media (max-width: 284px) {
     article {
         height: 80vh;
         width: 80vw;
@@ -239,9 +306,3 @@ version will be collapsed version */
         margin: -40vh -40vw;
     }
 }
-
-/* @media (max-width: 570px) {
-    article {
-        height: 80vh;
-    }
-} */
