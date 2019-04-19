@@ -92,7 +92,7 @@
         </nav>
 
         <!-- Page Content -->
-        <div id="content">
+        <div id="content" class="container-fluid">
             <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <button type="button" id="sidebarCollapse" class="btn btn-info">
@@ -143,7 +143,7 @@
                 <div id="exit-icon1"><i class="fas fa-times"></i></div>
                 <h2>Small Business Lines</h2>
                 <h4><strong>Rate Special</strong></h4>
-                <p>We work with businesses of all shapes and sizes. We will work to understand your business and recommend the best products and services to help you focus on what's important: growing your business.  Sunshine Bank has a line of credit to help fund your business. Lines of credit assist businesses in meeting unexpected needs and taking advantage of opportunities.</p>
+                <p>We work with businesses of all shapes and sizes. We will work to understand your business and recommend the best products and services to help you focus on what's important: growing your business. Sunshine Bank has a line of credit to help fund your business. Lines of credit assist businesses in meeting unexpected needs and taking advantage of opportunities.</p>
                 <button type="button" class="btn btn-primary article-button" href="#landing">
                     <span>Learn More</span>
                 </button>
@@ -157,9 +157,20 @@
                     <span>Learn More</span>
                 </button>
             </article>
+            <div class="container-fluid">
                 <h1>Want to Know when we launch?</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore illum quam, exercitationem earum corrupti atque placeat, consequuntur illo magni impedit cum! Deleniti libero porro architecto nihil similique, obcaecati reiciendis enim.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores voluptas consequuntur possimus fuga dolorum eos accusamus in officia non laborum, iure ut nihil, quae dolore molestiae magnam voluptatem. Molestias.</p>
+                <div class="row">
+                    <div class="col-sm info_pics">
+                        One of three columns
+                    </div>
+                    <div class="col-sm info_pics">
+                        One of three columns
+                    </div>
+                    <div class="col-sm info_pics">
+                        One of three columns
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
