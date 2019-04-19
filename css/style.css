@@ -138,7 +138,7 @@ a[data-toggle="collapse"] {
     padding-bottom: 50px;
 }
 
-.promo {
+article {
     height: 50vh;
     width: 40vw;
     position: fixed;
@@ -251,7 +251,7 @@ version will be collapsed version */
         margin: -30vh -30vw;
     } */
 }
-/* 
+
 @media (max-width: 1058px) {
     article {
         height: 60vh;
@@ -315,4 +315,4 @@ version will be collapsed version */
         left: 50%;
         margin: -40vh -40vw;
     }
-} */
+}
