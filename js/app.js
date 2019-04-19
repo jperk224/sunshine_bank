@@ -8,6 +8,14 @@ $(document).ready(function () {
         $('#home_equity').toggleClass('no_article');
     });
     
+    $('#bizLine').on('click', function () {
+        $('#biz_line').toggleClass('no_article');
+    });
+    
+    $('#investServices').on('click', function () {
+        $('#invest_services').toggleClass('no_article');
+    });
+    
     $('.exit-icon').on('click', function () {
         $('.promo').toggleClass('no_article');
     });
