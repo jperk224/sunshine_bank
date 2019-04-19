@@ -135,7 +135,7 @@
                 <h2>Home Equity</h2>
                 <h4><strong>Rate Special</strong></h4>
                 <p>With a Home Equity Loan or Master Line of Credit from Sunshine Bank you're sure to have plenty of sunny options to choose from. Our home equity products give you the flexibility you need while utilizing the hard earned equity in your home. For more information on these rate specials, check out our home equity product page.</p>
-                <button type="button" class="btn btn-primary article-button" href="#">
+                <button type="button" class="btn btn-primary article-button" href="#landing">
                     <span>Learn More</span>
                 </button>
             </article>
@@ -144,7 +144,7 @@
                 <h2>Small Business Lines</h2>
                 <h4><strong>Rate Special</strong></h4>
                 <p>We work with businesses of all shapes and sizes. We will work to understand your business and recommend the best products and services to help you focus on what's important: growing your business.  Sunshine Bank has a line of credit to help fund your business. Lines of credit assist businesses in meeting unexpected needs and taking advantage of opportunities.</p>
-                <button type="button" class="btn btn-primary article-button" href="#">
+                <button type="button" class="btn btn-primary article-button" href="#landing">
                     <span>Learn More</span>
                 </button>
             </article>
@@ -153,13 +153,13 @@
                 <h2>Investment Services</h2>
                 <h4><strong>Free Consultation</strong></h4>
                 <p>Whatever your level of wealth, or your financial goals, Sunshine Bank can help you create a personalized wealth management plan. With a team-based approach and a single point of contact, our quality advisors can build customized strategies tailored to you needs and goals.</p>
-                <button type="button" class="btn btn-primary article-button" href="#">
+                <button type="button" class="btn btn-primary article-button" href="#landing">
                     <span>Learn More</span>
                 </button>
             </article>
-            <h1>hello</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore illum quam, exercitationem earum corrupti atque placeat, consequuntur illo magni impedit cum! Deleniti libero porro architecto nihil similique, obcaecati reiciendis enim.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores voluptas consequuntur possimus fuga dolorum eos accusamus in officia non laborum, iure ut nihil, quae dolore molestiae magnam voluptatem. Molestias.</p>
+                <h1>Want to Know when we launch?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore illum quam, exercitationem earum corrupti atque placeat, consequuntur illo magni impedit cum! Deleniti libero porro architecto nihil similique, obcaecati reiciendis enim.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores voluptas consequuntur possimus fuga dolorum eos accusamus in officia non laborum, iure ut nihil, quae dolore molestiae magnam voluptatem. Molestias.</p>
         </div>
     </div>
 

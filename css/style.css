@@ -14,7 +14,7 @@ p {
 .wrapper {
     display: flex;
     /* width: 100%; */
-    align-items: stretch;
+    /* align-items: stretch; */
 }
 
 a, a:hover, a:focus {
@@ -76,7 +76,7 @@ ul ul a {
     font-size: 0.9em !important; /*TODO new ids to remove !important */
     padding-left: 10% !important; 
     /* background: rgb(109, 127, 204); */
-    background-image: linear-gradient(to right, rgb(109,127,204), rgb(209,231,238));
+    /* background-image: linear-gradient(to right, rgb(109,127,204), rgb(209,231,238)); */
 }
 
 a[data-toggle="collapse"] {
@@ -130,7 +130,7 @@ a[data-toggle="collapse"] {
 }
 
 #specials {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 article {
