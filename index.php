@@ -130,14 +130,23 @@
                     </div>
                 </div>
             </header>
-            <article id="home_equity" class="no_article promo">
-                <div id="exit-icon"><i class="fas fa-times"></i></div>
-                <h2>Home Equity</h2>
-                <h4><strong>Rate Special</strong></h4>
-                <p>With a Home Equity Loan or Master Line of Credit from Sunshine Bank you're sure to have plenty of sunny options to choose from. Our home equity products give you the flexibility you need while utilizing the hard earned equity in your home. For more information on these rate specials, check out our home equity product page.</p>
-                <button type="button" class="btn btn-primary article-button" href="#landing">
-                    <span>Learn More</span>
-                </button>
+            <article id="home_equity" class="no_article">
+                <div class="container-fluid promo">
+                    <div class="row">
+                        <div class="col-lg-0 promo-left">
+                        </div>
+                        <div class="col-lg-12 promo-middle">
+                            <div id="exit-icon"><i class="fas fa-times"></i></div>
+                            <h2>Home Equity</h2>
+                            <h4><strong>Rate Special</strong></h4>
+                            <p>With a Home Equity Loan or Master Line of Credit from Sunshine Bank you're sure to have plenty of sunny options to choose from. Our home equity products give you the flexibility you need while utilizing the hard earned equity in your home. For more information on these rate specials, check out our home equity product page.</p>
+                            <button type="button" class="btn btn-primary article-button" href="#landing">
+                                <span>Learn More</span>
+                            </button>
+                        </div>
+                        <div class="col-lg-0 promo-right">
+                        </div>
+                    </div>
             </article>
             <article id="biz_line" class="no_article promo">
                 <div id="exit-icon1"><i class="fas fa-times"></i></div>
