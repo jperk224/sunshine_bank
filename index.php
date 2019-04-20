@@ -130,39 +130,63 @@
                     </div>
                 </div>
             </header>
-            <div id="home_equity" class="homeEquityModal">
+            <div id="home_equity" class="modal">
                 <div class="modal-content">
-                    <span id="homeEquityClose">&times;</span>
-                    <p>Some modal text...</p>
+                    <div class='modal-header'>
+                        <span id="homeEquityClose">&times;</span><br>
+                        <h2>Home Equity</h2>
+                    </div>
+                    <div class="modal-body">
+                        <h4><strong>Rate Special</strong></h4>
+                        <p>With a Home Equity Loan or Master Line of Credit from Sunshine Bank you're sure to have plenty of sunny options to choose from. Our home equity products give you the flexibility you need while utilizing the hard earned equity in your home. For more information on these rate specials, check out our home equity product page.</p>
+                    </div>
+                    <div class='modal-footer'>
+                        <div class="modal-button-wrapper">
+                            <button type="button" class="btn btn-primary modal-button" href="#landing">
+                                <span>Learn More</span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <article class="no_article promo">
-                <div id="exit-icon"><i class="fas fa-times"></i></div>
-                <h2>Home Equity</h2>
-                <h4><strong>Rate Special</strong></h4>
-                <p>With a Home Equity Loan or Master Line of Credit from Sunshine Bank you're sure to have plenty of sunny options to choose from. Our home equity products give you the flexibility you need while utilizing the hard earned equity in your home. For more information on these rate specials, check out our home equity product page.</p>
-                <button type="button" class="btn btn-primary article-button" href="#landing">
-                    <span>Learn More</span>
-                </button>
-            </article>
-            <article id="biz_line" class="no_article promo">
-                <div id="exit-icon1"><i class="fas fa-times"></i></div>
-                <h2>Small Business Lines</h2>
-                <h4><strong>Rate Special</strong></h4>
-                <p>We work with businesses of all shapes and sizes. We will work to understand your business and recommend the best products and services to help you focus on what's important: growing your business. Sunshine Bank has a line of credit to help fund your business. Lines of credit assist businesses in meeting unexpected needs and taking advantage of opportunities.</p>
-                <button type="button" class="btn btn-primary article-button" href="#landing">
-                    <span>Learn More</span>
-                </button>
-            </article>
-            <article id="invest_services" class="no_article promo">
-                <div id="exit-icon2"><i class="fas fa-times"></i></div>
-                <h2>Investment Services</h2>
-                <h4><strong>Free Consultation</strong></h4>
-                <p>Whatever your level of wealth, or your financial goals, Sunshine Bank can help you create a personalized wealth management plan. With a team-based approach and a single point of contact, our quality advisors can build customized strategies tailored to you needs and goals.</p>
-                <button type="button" class="btn btn-primary article-button" href="#landing">
-                    <span>Learn More</span>
-                </button>
-            </article>
+            <div id="biz_line" class="modal">
+                <div class="modal-content">
+                    <div class='modal-header'>
+                        <span id="bizLineClose">&times;</span><br>
+                        <h2>Business Lines</h2>
+                    </div>
+                    <div class="modal-body">
+                        <h4><strong>Rate Special</strong></h4>
+                        <p>We work with businesses of all shapes and sizes. We will work to understand your business and recommend the best products and services to help you focus on what's important: growing your business. Sunshine Bank has a line of credit to help fund your business. Lines of credit assist businesses in meeting unexpected needs and taking advantage of opportunities.</p>
+                    </div>
+                    <div class='modal-footer'>
+                        <div class="modal-button-wrapper">
+                            <button type="button" class="btn btn-primary modal-button" href="#landing">
+                                <span>Learn More</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="invest_services" class="modal">
+                <div class="modal-content">
+                    <div class='modal-header'>
+                        <span id="investServicesClose">&times;</span><br>
+                        <h2>Investment Services</h2>
+                    </div>
+                    <div class="modal-body">
+                        <h4><strong>Free Consultation</strong></h4>
+                        <p>Whatever your level of wealth, or your financial goals, Sunshine Bank can help you create a personalized wealth management plan. With a team-based approach and a single point of contact, our quality advisors can build customized strategies tailored to you needs and goals.</p>
+                    </div>
+                    <div class='modal-footer'>
+                        <div class="modal-button-wrapper">
+                            <button type="button" class="btn btn-primary modal-button" href="#landing">
+                                <span>Learn More</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="container-fluid">
                 <h1>Want to Know when we launch?</h1>
                 <div class="row">

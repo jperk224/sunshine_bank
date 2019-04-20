@@ -138,7 +138,7 @@ a[data-toggle="collapse"] {
     padding-bottom: 50px;
 }
 
-.homeEquityModal {
+.modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -149,17 +149,65 @@ a[data-toggle="collapse"] {
     overflow: auto;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
+    text-align: center;
 }
 
 .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; 
-    padding: 20px;
+    /* background-image: linear-gradient(to right, rgb(109,127,204), rgb(209,231,238)); */
+    background-color: rgb(109,127,204);
+    color: rgb(255,255,255);
     border: 1px solid rgb(109,127,204);
     width: 80%;
+    position: relative;
+    margin: auto;
+    padding: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
 }
 
-.close {
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+.modal-content span {
+    font-size: 1.5em;
+}
+
+.modal-content span:hover {
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px, 16px;
+}
+
+.modal-body {
+    padding: 2px, 16px;
+}
+
+.modal-footer {
+    padding: 2px, 16px;
+}
+
+.modal-button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-button {
+    background-color: rgba(255,255,255,0);
+    color: rgb(255,255,255);
+    border: 1px solid rgb(20,177,231);
+    border-radius: 5px;
+}
+
+.modal-button:hover {
+    background-image: linear-gradient(to right, rgb(109,127,204), rgb(209,231,238));
+}
+
+/* .close {
     color: #aaa;
     float: right;
     font-size: 28px;
@@ -171,7 +219,7 @@ a[data-toggle="collapse"] {
     color: black;
     text-decoration: none;
     cursor: pointer;
-}
+} */
 
 article {
     height: 50vh;
@@ -217,16 +265,7 @@ article div#exit-icon2:hover {
     cursor: pointer;
 }
 
-.promo button {
-    background-color: rgba(255,255,255,0);
-    color: rgb(255,255,255);
-    border: none;
-    outline: 1px solid rgb(109,127,204);
-}
 
-.promo button:hover {
-    background-image: linear-gradient(to right, rgb(109,127,204), rgb(209,231,238));
-}
 
 article.no_article {
     display: none;
