@@ -29,3 +29,21 @@ $(document).ready(function () {
     });
 
 });
+
+var homeEquityModal = document.getElementById('home_equity');
+var homeEquityButton = document.getElementById('homeEquity');
+var homeEquityClose = document.getElementById('homeEquityClose');
+
+homeEquityButton.onclick = function() {
+    homeEquityModal.style.display = 'block';
+}
+
+homeEquityClose.onclick = function() {
+    homeEquityModal.style.display = 'none';
+}
+
+window.onclick = function(event) {
+    if (event.target == homeEquityModal) {
+      homeEquityModal.style.display = "none";
+    }
+  }

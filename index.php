@@ -113,7 +113,7 @@
                             <h1 class="font-weight-light">Sunshine Bank</h1>
                             <h3 class="lead">Clearing the Clouds from your financial future.</h3>
                             <div id="specials">
-                                <button type="button" id="homeEquity" class="btn btn-primary" href="#home_equity">
+                                <button type="button" id="homeEquity" class="btn btn-primary">
                                     <i class="fas fa-home"></i>
                                     <span>Home Equity Special</span>
                                 </button>
@@ -130,7 +130,13 @@
                     </div>
                 </div>
             </header>
-            <article id="home_equity" class="no_article promo">
+            <div id="home_equity" class="homeEquityModal">
+                <div class="modal-content">
+                    <span id="homeEquityClose">&times;</span>
+                    <p>Some modal text...</p>
+                </div>
+            </div>
+            <article class="no_article promo">
                 <div id="exit-icon"><i class="fas fa-times"></i></div>
                 <h2>Home Equity</h2>
                 <h4><strong>Rate Special</strong></h4>
