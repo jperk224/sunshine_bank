@@ -115,7 +115,7 @@
                             <div id="specials">
                                 <button type="button" id="homeEquity" class="btn btn-primary">
                                     <i class="fas fa-home"></i>
-                                    <span>Home Equity Special</span>
+                                    <span>Home Equity</span>
                                 </button>
                                 <button type="button" id="bizLine" class="btn btn-primary" href="#biz_line">
                                     <i class="fas fa-chart-pie"></i>

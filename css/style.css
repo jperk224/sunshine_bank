@@ -274,6 +274,14 @@ article.no_article {
 .info_pics {
     border: 3px solid blue;
     background-color: lightblue;
+    margin: 25px;
+    border-radius: 5px;
+    height: 35vh;
+    transition: all 0.5s;
+}
+
+.info_pics:hover {
+    transform: scale(1.1);
 }
 
 /* MEDIA QUERY */
