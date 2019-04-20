@@ -187,17 +187,26 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
-                <h1>Want to Know when we launch?</h1>
+            <div class="container-fluid services">
+                <h2>What Can Sunshine Do For You?</h2>
                 <div class="row">
-                    <div class="col-sm info_pics">
-                        One of three columns
+                    <div class="col-sm">
+                        <div class="service_title"><h4>Checking Account Services</h4></div>
+                        <div class="info_pics" id="personalBanking">
+
+                        </div>
                     </div>
-                    <div class="col-sm info_pics">
-                        One of three columns
+                    <div class="col-sm">
+                    <div class="service_title"><h4>Home Mortgage</h4></div>
+                        <div class="info_pics" id="homeMortgage">
+
+                        </div>
                     </div>
-                    <div class="col-sm info_pics">
-                        One of three columns
+                    <div class="col-sm">
+                    <div class="service_title"><h4>SBA Lending</h4></div>
+                        <div class="info_pics" id="sbaLending">
+
+                        </div>
                     </div>
                 </div>
             </div>
