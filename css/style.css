@@ -213,7 +213,8 @@ a[data-toggle="collapse"] {
     color: rgb(255,255,255);
 }
 
-.services h2 {
+.services h2,
+.testimonials h2 {
     font-size: 2.5em;
     padding: 20px;
     font-weight: 400;
@@ -221,6 +222,7 @@ a[data-toggle="collapse"] {
 
 .service_title {
     min-height: 10vh;
+    padding-top: 3vh;
 }
 
 /* .services h4 {
@@ -229,16 +231,64 @@ a[data-toggle="collapse"] {
 
 .info_pics {
     border: 3px solid rgb(20,177,231);
-    background-color: lightblue;
+    /* background-color: lightblue; */
     margin: 25px;
     border-radius: 5px;
     max-height: 35vh;
     min-height: 20vh;
     transition: all 0.5s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .info_pics:hover {
     transform: scale(1.1);
+}
+
+#personalBanking {
+    background-image: url("./../images/checking.jpg");
+}
+
+#homeMortgage {
+    background-image: url("./../images/home.jpg");
+}
+
+#sbaLending {
+    background-image: url("./../images/sba.jpg");
+}
+
+.testimonials {
+    text-align: center;
+    background-image: linear-gradient(rgb(109,127,204),rgb(209,231,238));
+    color: rgb(255,255,255);
+}
+
+.info_pics2 {
+    /* border: 3px solid rgb(20,177,231); */
+    /* background-color: lightblue; */
+    margin: 25px;
+    /* border-radius: 5px; */
+    max-height: 40vh;
+    min-height: 20vh;
+    font-weight: 700;
+    text-align: left;
+}
+
+.sources {
+    /* padding-left: 20px; */
+    text-align: left;
+    font-size: 1.25em;
+}
+
+.sources p {
+    margin: 0;
+    padding: 0;
+}
+
+.company-title {
+    padding-left: 15px !important;
+    font-size: 1.3em !important;
 }
 
 /* MEDIA QUERY */
