@@ -257,6 +257,15 @@
                     </div>
                 </div>
             </div>
+            <div class="container-fluid" id="footer">
+                    <div id="copyright">
+                        &copy;
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script> Developed by
+                        <a href="https://jperk224.github.io/" target="_blank">Jeff Perkinson</a>.
+                    </div>
+            </div>
         </div>
     </div>
 

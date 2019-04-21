@@ -316,9 +316,15 @@ a[data-toggle="collapse"] {
     background-image: url("./../images/randy.jpg");
 }
 
-/* .col-sm {
-    border: 3px solid red;
-} */
+#footer {
+    padding: 0;
+}
+
+#copyright {
+    text-align: right;
+    color: white;
+    background-image: linear-gradient(rgb(109,127,204),rgb(209,231,238));
+}
 
 /* MEDIA QUERY */
 
