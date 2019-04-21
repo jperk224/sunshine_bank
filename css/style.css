@@ -270,7 +270,7 @@ a[data-toggle="collapse"] {
     /* background-color: lightblue; */
     margin: 25px;
     /* border-radius: 5px; */
-    max-height: 40vh;
+    /* max-height: 40vh; */
     min-height: 20vh;
     font-weight: 700;
     text-align: left;
@@ -280,6 +280,7 @@ a[data-toggle="collapse"] {
     /* padding-left: 20px; */
     text-align: left;
     font-size: 1.25em;
+    display: flex;
 }
 
 .sources p {
@@ -290,6 +291,34 @@ a[data-toggle="collapse"] {
 .company-title {
     font-size: 1.3em !important;
 }
+
+.testimonial-image {
+    height: 100px;
+    width: 100px;
+    /* background-color: green; */
+    border: 3px solid rgb(20,177,231);
+    border-radius: 50px;
+    margin-left: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#duane {
+    background-image: url("./../images/duane.jpg");
+}
+
+#allison {
+    background-image: url("./../images/alison.jpg");
+}
+
+#randy {
+    background-image: url("./../images/randy.jpg");
+}
+
+/* .col-sm {
+    border: 3px solid red;
+} */
 
 /* MEDIA QUERY */
 

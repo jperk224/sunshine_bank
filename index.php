@@ -191,16 +191,28 @@
                 <h2>What Can Sunshine Do For You?</h2>
                 <div class="row">
                     <div class="col-sm">
-                        <div class="service_title"><h4>Checking Account Services</h4></div>
-                        <a href="#"><div class="info_pics" id="personalBanking"></div></a>
+                        <div class="service_title">
+                            <h4>Checking Account Services</h4>
+                        </div>
+                        <a href="#">
+                            <div class="info_pics" id="personalBanking"></div>
+                        </a>
                     </div>
                     <div class="col-sm">
-                        <div class="service_title"><h4>Home Mortgage</h4></div>
-                        <a href="#"><div class="info_pics" id="homeMortgage"></div></a>
+                        <div class="service_title">
+                            <h4>Home Mortgage</h4>
+                        </div>
+                        <a href="#">
+                            <div class="info_pics" id="homeMortgage"></div>
+                        </a>
                     </div>
                     <div class="col-sm">
-                        <div class="service_title"><h4>SBA Lending</h4></div>
-                        <a href="#"><div class="info_pics" id="sbaLending"></div></a>
+                        <div class="service_title">
+                            <h4>SBA Lending</h4>
+                        </div>
+                        <a href="#">
+                            <div class="info_pics" id="sbaLending"></div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -212,8 +224,11 @@
                         <div class="info_pics2">
                             <p><em>“For a small family business like us, we needed to have somebody who was responsive to our needs. Sunshine Bank looked at how they could help us solve problems. That was something we didn’t always find, especially with the larger banks.”</em></p>
                             <div class="sources">
-                                <p class="company-title">Duane's Vino</p>
-                                <p>-Duane Vino, Chair</p>
+                                <div>
+                                    <p class="company-title">Duane's Vino</p>
+                                    <p>-Duane Vino, Chair</p>
+                                </div>
+                                <div class="testimonial-image" id="duane"></div>
                             </div>
                         </div>
                     </div>
@@ -221,16 +236,22 @@
                         <div class="info_pics2">
                             <p><em>"Sunshine Bank offers us a small town feel and small bank intimacy with the resources and depth of a large bank."</em></p>
                             <div class="sources">
-                                <p>-Allison Jones</p>
+                                <div>
+                                    <p>-Allison Jones</p>
+                                </div>
+                                <div class="testimonial-image" id="allison"></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm">
                         <div class="info_pics2">
-                        <p><em>"They really guided us through the documentation process.  They worked hard to get us the coverage we needed to meet our working capital needs."</em></p>
+                            <p><em>"They really guided us through the documentation process. They worked hard to get us the coverage we needed to meet our working capital needs."</em></p>
                             <div class="sources">
-                                <p class="company-title">Randy's Beverage Corp.</p>
-                                <p>-Randy Lacore, President</p>
+                                <div>
+                                    <p class="company-title">Randy's Beverage</p>
+                                    <p>-Randy Lacore, President</p>
+                                </div>
+                                <div class="testimonial-image" id="randy"></div>
                             </div>
                         </div>
                     </div>
