@@ -192,33 +192,28 @@
                 <div class="row">
                     <div class="col-sm">
                         <div class="service_title"><h4>Checking Account Services</h4></div>
-                        <div class="info_pics" id="personalBanking">
-
-                        </div>
+                        <a href="#"><div class="info_pics" id="personalBanking"></div></a>
                     </div>
                     <div class="col-sm">
-                    <div class="service_title"><h4>Home Mortgage</h4></div>
-                        <div class="info_pics" id="homeMortgage">
-
-                        </div>
+                        <div class="service_title"><h4>Home Mortgage</h4></div>
+                        <a href="#"><div class="info_pics" id="homeMortgage"></div></a>
                     </div>
                     <div class="col-sm">
-                    <div class="service_title"><h4>SBA Lending</h4></div>
-                        <div class="info_pics" id="sbaLending">
-
-                        </div>
+                        <div class="service_title"><h4>SBA Lending</h4></div>
+                        <a href="#"><div class="info_pics" id="sbaLending"></div></a>
                     </div>
                 </div>
             </div>
             <div class="container-fluid testimonials">
                 <h2>Hear Our Testimonials</h2>
+                <!-- TODO: Reveal on Scroll -->
                 <div class="row">
                     <div class="col-sm">
                         <div class="info_pics2">
                             <p><em>“For a small family business like us, we needed to have somebody who was responsive to our needs. Sunshine Bank looked at how they could help us solve problems. That was something we didn’t always find, especially with the larger banks.”</em></p>
                             <div class="sources">
-                                <p>-Duane Vino, Chair</p>
                                 <p class="company-title">Duane's Vino</p>
+                                <p>-Duane Vino, Chair</p>
                             </div>
                         </div>
                     </div>
@@ -234,8 +229,8 @@
                         <div class="info_pics2">
                         <p><em>"They really guided us through the documentation process.  They worked hard to get us the coverage we needed to meet our working capital needs."</em></p>
                             <div class="sources">
-                                <p>-Randy Lacore, President</p>
                                 <p class="company-title">Randy's Beverage Corp.</p>
+                                <p>-Randy Lacore, President</p>
                             </div>
                         </div>
                     </div>
