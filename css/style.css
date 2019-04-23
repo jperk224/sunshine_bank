@@ -332,6 +332,26 @@ a[data-toggle="collapse"] {
     background-image: linear-gradient(rgb(109,127,204),rgb(209,231,238));
 }
 
+.subscribe-container {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(109,127,204), rgb(209,231,238));
+    min-height: 100vh;
+    min-width: 100vw;
+    text-align: center;
+}
+
+.subscribe {
+    margin: auto;
+    padding-top: 20vh;
+    max-width: 50vw;
+}
+
+#mc_embed_signup {
+     border-radius: 10px;
+     background-image: linear-gradient(to right, rgb(20,177,231), rgb(209,231,238));
+}
+
 /* MEDIA QUERY */
 
 

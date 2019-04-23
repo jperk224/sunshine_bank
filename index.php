@@ -19,13 +19,13 @@ require 'partials/header.php';
                 </a>
                 <ul class="collapse list-unstyled" id="personalSubmenu">
                     <li>
-                        <a href="#">Checking</a>
+                        <a href="subscribe.php">Checking</a>
                     </li>
                     <li>
-                        <a href="#">Savings</a>
+                        <a href="subscribe.php">Savings</a>
                     </li>
                     <li>
-                        <a href="#">Loans</a>
+                        <a href="subscribe.php">Loans</a>
                     </li>
                 </ul>
             </li>
