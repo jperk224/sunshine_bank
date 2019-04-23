@@ -339,6 +339,10 @@ a[data-toggle="collapse"] {
     min-height: 100vh;
     min-width: 100vw;
     text-align: center;
+    color: white;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+                 0px 8px 13px rgba(0,0,0,0.3),
+                 0px 18px 23px rgba(0,0,0,0.3); 
 }
 
 .subscribe {
@@ -347,9 +351,19 @@ a[data-toggle="collapse"] {
     max-width: 50vw;
 }
 
+.subscribe h1 {
+    padding-bottom: 10px;
+}
+
+.subscribe h4 {
+    padding-bottom: 10px;
+    text-shadow: none;
+}
+
 #mc_embed_signup {
      border-radius: 10px;
      background-image: linear-gradient(to right, rgb(20,177,231), rgb(209,231,238));
+    text-shadow: none;
 }
 
 /* MEDIA QUERY */
@@ -390,5 +404,9 @@ version will be collapsed version */
 
     .dropdown-toggle:after {
         display: none;
+    }
+
+    .subscribe {
+        max-width: 75vw;
     }
 }
