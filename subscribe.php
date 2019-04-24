@@ -7,7 +7,7 @@ require 'partials/header.php';
 <div class="subscribe-container">
     <div class="subscribe">
         <h1>Thank You For Your Inquiry</h1>
-        <h4>We are thirlled to have the opportunity to serve our community in the coming days. Click the subscribe button to receive the latest updates regarding our planned opening and service availability.</h4>
+        <h4>We are thirlled to have the opportunity to serve our community in the coming days. Please subscribe to receive the latest updates regarding our planned opening and service availability.</h4>
         <!-- Begin Mailchimp Signup Form -->
         <div id="embed_signup">
             <form action="thanks.php" method="post">
