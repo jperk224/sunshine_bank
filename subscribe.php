@@ -7,22 +7,19 @@ require 'partials/header.php';
 <div class="subscribe-container">
     <div class="subscribe">
         <h1>Thank You For Your Inquiry</h1>
-        <h4>We are thirlled to have the opportunity to serve our community in the coming days.  Click the subscribe button to receive the latest updates regarding our planned opening and representative availability.</h4>
+        <h4>We are thirlled to have the opportunity to serve our community in the coming days. Click the subscribe button to receive the latest updates regarding our planned opening and service availability.</h4>
         <!-- Begin Mailchimp Signup Form -->
-        <div id="mc_embed_signup">
-            <form action="https://gmail.us20.list-manage.com/subscribe/post?u=e3c00810fe36e6bc5832229dd&amp;id=8a0543765a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div id="mc_embed_signup_scroll">
-                    <label for="mce-EMAIL">Subscribe</label>
-                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e3c00810fe36e6bc5832229dd_8a0543765a" tabindex="-1" value=""></div>
-                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        <div id="embed_signup">
+            <form action="thanks.php" method="post">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
                 </div>
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-lg subscribe-button">
             </form>
         </div>
+        <h4 class="return"><a href="index.php">Sunshine Bank Home</a></h4>
     </div>
-
-    <!--End mc_embed_signup-->
-
 </div>
 <?php require 'partials/footer.php' ?>

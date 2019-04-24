@@ -356,14 +356,33 @@ a[data-toggle="collapse"] {
 }
 
 .subscribe h4 {
+    padding-top: 10px;
     padding-bottom: 10px;
     text-shadow: none;
 }
 
-#mc_embed_signup {
-     border-radius: 10px;
-     background-image: linear-gradient(to right, rgb(20,177,231), rgb(209,231,238));
+#embed_signup {
+    padding: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(20,177,231), rgb(209,231,238));
     text-shadow: none;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-button {
+    background-color: rgba(255,255,255,0);
+    color: rgb(255,255,255);
+    border: 1px solid rgb(20,177,231);
+    border-radius: 5px;
+}
+
+.subscribe-button:hover {
+    background-image: linear-gradient(to right, rgb(109,127,204), rgb(209,231,238));
+}
+
+.return {
+    font-size: 1em;
 }
 
 /* MEDIA QUERY */

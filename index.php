@@ -36,13 +36,13 @@ require 'partials/header.php';
                 </a>
                 <ul class="collapse list-unstyled" id="businessSubmenu">
                     <li>
-                        <a href="#">Banking</a>
+                        <a href="subscribe.php">Banking</a>
                     </li>
                     <li>
-                        <a href="#">Loans</a>
+                        <a href="subscribe.php">Loans</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="subscribe.php">Services</a>
                     </li>
                 </ul>
             </li>
@@ -53,21 +53,21 @@ require 'partials/header.php';
                 </a>
                 <ul class="collapse list-unstyled" id="pageSubmenu">
                     <li>
-                        <a href="#">Trust and Asset Management</a>
+                        <a href="subscribe.php">Trust and Asset Management</a>
                     </li>
                     <li>
-                        <a href="#">Wealth Advisory Services</a>
+                        <a href="subscribe.php">Wealth Advisory Services</a>
                     </li>
                 </ul>
             </li>
             <li>
-                <a href="#">
+                <a href="subscribe.php">
                     <i class="fas fa-sun"></i>
                     About
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="subscribe.php">
                     <i class="fas fa-phone"></i>
                     Contact
                 </a>
@@ -126,7 +126,7 @@ require 'partials/header.php';
                 </div>
                 <div class='modal-footer'>
                     <div class="modal-button-wrapper">
-                        <button type="button" class="btn btn-primary modal-button" href="#landing">
+                        <button type="button" class="btn btn-primary modal-button" href="subscribe.php">
                             <span>Learn More</span>
                         </button>
                     </div>
@@ -145,7 +145,7 @@ require 'partials/header.php';
                 </div>
                 <div class='modal-footer'>
                     <div class="modal-button-wrapper">
-                        <button type="button" class="btn btn-primary modal-button" href="#landing">
+                        <button type="button" class="btn btn-primary modal-button" href="subscribe.php">
                             <span>Learn More</span>
                         </button>
                     </div>
@@ -164,7 +164,7 @@ require 'partials/header.php';
                 </div>
                 <div class='modal-footer'>
                     <div class="modal-button-wrapper">
-                        <button type="button" class="btn btn-primary modal-button" href="#landing">
+                        <button type="button" class="btn btn-primary modal-button" href="subscribe.php">
                             <span>Learn More</span>
                         </button>
                     </div>
@@ -178,7 +178,7 @@ require 'partials/header.php';
                     <div class="service_title">
                         <h4>Checking Account Services</h4>
                     </div>
-                    <a href="#">
+                    <a href="subscribe.php">
                         <div class="info_pics" id="personalBanking"></div>
                     </a>
                 </div>
@@ -186,7 +186,7 @@ require 'partials/header.php';
                     <div class="service_title">
                         <h4>Home Mortgage</h4>
                     </div>
-                    <a href="#">
+                    <a href="subscribe.php">
                         <div class="info_pics" id="homeMortgage"></div>
                     </a>
                 </div>
@@ -194,7 +194,7 @@ require 'partials/header.php';
                     <div class="service_title">
                         <h4>SBA Lending</h4>
                     </div>
-                    <a href="#">
+                    <a href="subscribe.php">
                         <div class="info_pics" id="sbaLending"></div>
                     </a>
                 </div>
