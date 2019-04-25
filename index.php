@@ -126,9 +126,12 @@ require 'partials/header.php';
                 </div>
                 <div class='modal-footer'>
                     <div class="modal-button-wrapper">
-                        <button type="button" class="btn btn-primary modal-button" href="subscribe.php">
+                        <form action="subscribe.php" method="post">
+                            <input type="submit" class="btn btn-primary modal-button" value="Learn More">
+                            <!-- <button type="button" class="btn btn-primary modal-button">
                             <span>Learn More</span>
-                        </button>
+                        </button> -->
+                        </form>
                     </div>
                 </div>
             </div>
@@ -145,9 +148,12 @@ require 'partials/header.php';
                 </div>
                 <div class='modal-footer'>
                     <div class="modal-button-wrapper">
-                        <button type="button" class="btn btn-primary modal-button" href="subscribe.php">
+                        <form action="subscribe.php" method="post">
+                            <input type="submit" class="btn btn-primary modal-button" value="Learn More">
+                            <!-- <button type="button" class="btn btn-primary modal-button" href="subscribe.php">
                             <span>Learn More</span>
-                        </button>
+                        </button> -->
+                        </form>
                     </div>
                 </div>
             </div>
@@ -164,9 +170,12 @@ require 'partials/header.php';
                 </div>
                 <div class='modal-footer'>
                     <div class="modal-button-wrapper">
-                        <button type="button" class="btn btn-primary modal-button" href="subscribe.php">
+                        <form action="subscribe.php" method="post">
+                            <input type="submit" class="btn btn-primary modal-button" value="Learn More">
+                            <!-- <button type="button" class="btn btn-primary modal-button" href="subscribe.php">
                             <span>Learn More</span>
-                        </button>
+                        </button> -->
+                        </form>
                     </div>
                 </div>
             </div>
